@@ -25,6 +25,7 @@ Ext.define('SB.view.Settings', {
                 xtype: 'textfield',
                 label: 'API Key',
                 name: 'apikey',
+				value: '52ad83ff051466f1d58ffbee00bebf7e',
                 listeners: {
                     initialize: function(field) {
                         field.setValue(localStorage.getItem(field.getName()));
